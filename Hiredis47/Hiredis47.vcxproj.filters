@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\hiredis\async.c" />
+    <ClCompile Include="..\hiredis\dict.c" />
+    <ClCompile Include="..\hiredis\hiredis.c" />
+    <ClCompile Include="..\hiredis\net.c" />
+    <ClCompile Include="..\hiredis\read.c" />
+    <ClCompile Include="..\hiredis\sds.c" />
+    <ClCompile Include="..\hiredis\sockcompat.c" />
+    <ClCompile Include="..\hiredis\ssl.c" />
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\hiredis\async.h" />
+    <ClInclude Include="..\hiredis\async_private.h" />
+    <ClInclude Include="..\hiredis\dict.h" />
+    <ClInclude Include="..\hiredis\fmacros.h" />
+    <ClInclude Include="..\hiredis\hiredis.h" />
+    <ClInclude Include="..\hiredis\hiredis_ssl.h" />
+    <ClInclude Include="..\hiredis\net.h" />
+    <ClInclude Include="..\hiredis\read.h" />
+    <ClInclude Include="..\hiredis\sds.h" />
+    <ClInclude Include="..\hiredis\sdsalloc.h" />
+    <ClInclude Include="..\hiredis\sockcompat.h" />
+    <ClInclude Include="..\hiredis\win32.h" />
+  </ItemGroup>
+</Project>
